@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Page transition overlay (for “page-like” navigation transitions) -->
+  <div id="pageTransition"></div>
+
   <!-- Top bar -->
   <div class="topbar">
     <div class="container topbar-inner">
@@ -22,14 +25,12 @@
   <header class="header" id="top">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Synergy Container Solutions Home">
-        <!-- Replace this text with your SVG logo later -->
+        <!-- Replace this with your SVG logo later -->
         <span class="brand-mark">S</span>
         <span class="brand-name">Synergy Container Solutions</span>
       </a>
 
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-        ☰
-      </button>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
 
       <nav class="nav" aria-label="Main navigation">
         <a href="#home">Home</a>
@@ -45,7 +46,7 @@
   <!-- Hero -->
   <main id="home" class="hero">
     <div class="container hero-inner">
-      <div class="hero-copy">
+      <div class="hero-copy reveal">
         <h1>Reliable Shipping & Storage Container Solutions</h1>
         <p class="lead">
           Supplying durable, secure containers for commercial and residential use across Gauteng.
@@ -65,7 +66,7 @@
         </div>
       </div>
 
-      <div class="hero-card">
+      <div class="hero-card reveal">
         <h3>Quick Enquiry</h3>
         <p>Tell us what you need and we’ll respond with options and availability.</p>
         <ul class="checklist">
@@ -78,8 +79,23 @@
     </div>
   </main>
 
+  <!-- CTA Strip (adds vibrance + breaks the page nicely) -->
+  <section class="section section-alt reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>Fast Quotes. Clear Options. Gauteng Delivery.</h2>
+        <p>
+          Tell us what you need and we’ll recommend the best container solution based on availability and your location in Gauteng.
+        </p>
+      </div>
+      <div class="center">
+        <a class="btn btn-primary" href="#contact">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+
   <!-- Highlights -->
-  <section class="section">
+  <section class="section reveal">
     <div class="container">
       <div class="section-head">
         <h2>Why Choose Synergy Container Solutions?</h2>
@@ -108,7 +124,7 @@
   </section>
 
   <!-- Containers -->
-  <section id="containers" class="section section-alt">
+  <section id="containers" class="section section-alt reveal">
     <div class="container">
       <div class="section-head">
         <h2>Container Options</h2>
@@ -199,7 +215,7 @@
   </section>
 
   <!-- Custom Solutions -->
-  <section id="custom" class="section">
+  <section id="custom" class="section reveal">
     <div class="container">
       <div class="section-head">
         <h2>Custom Container Solutions</h2>
@@ -232,7 +248,7 @@
   </section>
 
   <!-- Gallery -->
-  <section id="gallery" class="section section-alt">
+  <section id="gallery" class="section section-alt reveal">
     <div class="container">
       <div class="section-head">
         <h2>Gallery</h2>
@@ -255,7 +271,7 @@
   </section>
 
   <!-- About -->
-  <section id="about" class="section">
+  <section id="about" class="section reveal">
     <div class="container">
       <div class="section-head">
         <h2>About Synergy Container Solutions</h2>
@@ -289,7 +305,7 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section section-alt">
+  <section id="contact" class="section section-alt reveal">
     <div class="container">
       <div class="section-head">
         <h2>Request a Quote</h2>
@@ -297,7 +313,6 @@
       </div>
 
       <div class="grid-2">
-        <!-- Option A: mailto (works free, no backend) -->
         <form class="form card" id="quoteForm">
           <label>
             Full Name
@@ -340,8 +355,7 @@
 
           <button class="btn btn-primary btn-block" type="submit">Send Enquiry</button>
           <p class="form-hint">
-            This form sends using your email app (no Firebase needed). If you want a “real” web form that emails you automatically,
-            I’ll show you a free option below.
+            This form opens your email app (free, no Firebase needed). When you have a business email ready, we’ll update the recipient.
           </p>
         </form>
 
