@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="800mm" height="800mm" version="1.1" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <ellipse cx="400" cy="400" rx="291.61" ry="293.4" fill="#d38d5f" stroke="#000" stroke-linecap="round" stroke-width="10"/>
+ <path id="path6" d="m398.62 115.49a283.13 284.1 0 0 0-283.13 284.1 283.13 284.1 0 0 0 283.13 284.1 283.13 284.1 0 0 0 283.13-284.1 283.13 284.1 0 0 0-283.13-284.1z" fill="none" stroke-width=".21934"/>
+ <path id="path1" d="m400 655.53a255.53 255.53 0 0 1-255.53-255.53 255.53 255.53 0 0 1 255.53-255.53 255.53 255.53 0 0 1 255.53 255.53 255.53 255.53 0 0 1-255.53 255.53z" fill="none" stroke-width=".26209"/>
+ <text x="283.5162" y="52.287827" fill="#000000" font-size="3.175px" stroke-width=".26458" xml:space="preserve"><tspan x="283.5162" y="52.287827" stroke-width=".26458"/></text>
+ <g font-family="Futura" font-size="35.278px" font-stretch="condensed" font-weight="800" letter-spacing="2.6458px" stroke-width=".26458" text-anchor="middle">
+  <text fill="#ffffff" stroke="#000000" text-align="center" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><textPath startOffset="50%" fill="#000000" font-family="Sans" font-size="35.278px" font-stretch="condensed" font-weight="800" letter-spacing="2.6458px" stroke="#000000" stroke-width=".26458" text-align="center" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xlink:href="#path1">SYNERGY CONTAINER SOLUTIONS</textPath></text>
+  <text x="294.02451" y="-26.104977" fill="#000000" text-align="center" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><tspan x="294.02451" y="-26.104977" font-family="Futura" font-size="35.278px" font-stretch="condensed" font-weight="800" letter-spacing="2.6458px" stroke-width=".26458" text-align="center" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></text>
+  <text fill="#ffffff" text-align="center" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><textPath startOffset="50%" fill="#000000" font-family="Sans" font-size="35.278px" font-stretch="condensed" font-weight="800" letter-spacing="2.6458px" stroke-width=".26458" text-align="center" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xlink:href="#path6">SYNERGY CONTAINER SOLUTIONS</textPath></text>
+ </g>
+ <g stroke-linecap="round">
+  <path d="m135.45 450.11a269.26 269.26 0 0 1-4.704-50.11 269.26 269.26 0 0 1 0.35882-13.896m537.8 0.0399a269.26 269.26 0 0 1 0.3568 13.856 269.26 269.26 0 0 1-4.704 50.11m-22.934-50.11a241.62 241.62 0 0 1-241.62 241.62 241.62 241.62 0 0 1-241.62-241.62 241.62 241.62 0 0 1 241.62-241.62 241.62 241.62 0 0 1 241.62 241.62zm54.048 0a295.67 295.67 0 0 1-295.67 295.67 295.67 295.67 0 0 1-295.67-295.67 295.67 295.67 0 0 1 295.67-295.67 295.67 295.67 0 0 1 295.67 295.67z" fill="none" stroke="#000" stroke-width="10"/>
+  <g fill-rule="evenodd" stroke="#d38d5f" stroke-linejoin="round" stroke-width="15">
+   <path d="m466.63 252.32 128.15 45.947v159.88l-128.15-45.947z" points="594.77986,298.26597 594.77986,458.14352 466.62503,412.19688 466.62503,252.31933 "/>
+   <path d="m208.18 339.92v159.88l258.44-87.6v-159.88z" points="208.18163,499.79695 466.62503,412.19688 466.62503,252.31933 208.18163,339.9194 "/>
+   <path d="m208.18 499.8 128.15 45.947 258.44-87.6-128.15-45.947z" points="336.33645,545.74359 594.77986,458.14352 466.62503,412.19688 208.18163,499.79695 "/>
+   <path d="m208.18 339.92 128.15 45.947 258.44-87.6-128.15-45.947z" points="336.33645,385.86604 594.77986,298.26597 466.62503,252.31933 208.18163,339.9194 "/>
+   <path d="m336.34 385.87v159.88l258.44-87.6v-159.88z" points="336.33645,545.74359 594.77986,458.14352 594.77986,298.26597 336.33645,385.86604 "/>
+   <path d="m208.18 339.92 128.15 45.947v159.88l-128.15-45.947z" points="336.33645,385.86604 336.33645,545.74359 208.18163,499.79695 208.18163,339.9194 "/>
+  </g>
+  <text transform="matrix(.90034 -.30611 .43519 .96273 0 0)" x="265.15073" y="551.67206" fill="#d38d5f" font-family="Sans" font-size="70.556px" letter-spacing="2.6458px" stroke="#d38d5f" stroke-width="5" text-align="center" text-anchor="middle" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><tspan x="266.47363" y="551.67206" fill="#d38d5f" font-family="Sans" font-size="70.556px" stroke="#d38d5f" stroke-width="5" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SCS</tspan></text>
+ </g>
+</svg>
