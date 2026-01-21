@@ -11,7 +11,7 @@ toggle?.addEventListener("click", () => {
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Section reveal animation
+// Reveal animation
 const revealEls = document.querySelectorAll(".reveal");
 const io = new IntersectionObserver((entries) => {
   entries.forEach((e) => {
@@ -21,51 +21,53 @@ const io = new IntersectionObserver((entries) => {
 
 revealEls.forEach(el => io.observe(el));
 
-// Page-like transitions when clicking nav links
+// Page transition overlay
 const overlay = document.getElementById("pageTransition");
 
-function playTransitionThenScroll(targetId) {
-  // Close mobile nav
-  nav?.classList.remove("open");
-  toggle?.setAttribute("aria-expanded", "false");
-
-  // Show overlay
-  if (overlay) overlay.classList.add("show");
-
-  // After overlay covers screen, scroll to section
-  setTimeout(() => {
-    const target = document.querySelector(targetId);
-    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
-
-    // Hide overlay
-    setTimeout(() => {
-      if (overlay) overlay.classList.remove("show");
-    }, 450);
-  }, 350);
+function showOverlay() {
+  if (!overlay) return;
+  overlay.classList.add("show");
+}
+function hideOverlay() {
+  if (!overlay) return;
+  overlay.classList.remove("show");
 }
 
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener("click", (e) => {
-    const href = a.getAttribute("href");
-    if (!href || href === "#") return;
+// Smooth page transition for internal links (your site pages)
+document.querySelectorAll("a[href]").forEach(a => {
+  const href = a.getAttribute("href");
+  if (!href) return;
 
-    if (href.startsWith("#")) {
+  const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:");
+  const isAnchor = href.startsWith("#");
+
+  // Only animate transitions for internal page navigation (e.g. containers.html)
+  if (!isExternal && !isAnchor) {
+    a.addEventListener("click", (e) => {
       e.preventDefault();
-      playTransitionThenScroll(href);
-      history.pushState(null, "", href);
-    }
-  });
+      nav?.classList.remove("open");
+      toggle?.setAttribute("aria-expanded", "false");
+
+      showOverlay();
+      setTimeout(() => {
+        window.location.href = href;
+      }, 380);
+    });
+  }
 });
 
-// Contact form (mailto for now)
+// Hide overlay when page loads (nice feel)
+window.addEventListener("pageshow", () => {
+  setTimeout(() => hideOverlay(), 80);
+});
+
+// Contact form (mailto)
 const quoteForm = document.getElementById("quoteForm");
 quoteForm?.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const data = new FormData(quoteForm);
-
-  // Replace this later with your real email
-  const toEmail = "info@synergycontainersolutions.co.za";
+  const toEmail = "info@synergycontainersolutions.co.za"; // update later
 
   const subject = encodeURIComponent("Quote Request - Synergy Container Solutions");
   const body = encodeURIComponent(
