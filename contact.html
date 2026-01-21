@@ -10,33 +10,70 @@
 <body>
   <div id="pageTransition"></div>
 
-  <div class="topbar"><div class="container topbar-inner">
-    <p><strong>Delivery Area:</strong> Gauteng, South Africa</p><a class="topbar-link" href="contact.html">Request a Quote</a>
-  </div></div>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p><strong>Delivery Area:</strong> Gauteng, South Africa</p>
+      <a class="topbar-link" href="contact.html">Request a Quote</a>
+    </div>
+  </div>
 
-  <header class="header"><div class="container header-inner">
-    <a class="brand" href="index.html"><span class="brand-mark">S</span><span class="brand-name">Synergy Container Solutions</span></a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="index.html">Home</a><a href="containers.html">Containers</a><a href="custom.html">Custom Solutions</a>
-      <a href="gallery.html">Gallery</a><a href="about.html">About</a>
-      <a class="btn btn-primary" href="contact.html">Request a Quote</a>
-    </nav>
-  </div></header>
+  <header class="header">
+    <div class="container header-inner">
+
+      <!-- ✅ UPDATED LOGO -->
+      <a class="brand" href="index.html" aria-label="Synergy Container Solutions Home">
+        <img src="assets/logo.svg" alt="Synergy Container Solutions Logo" class="logo">
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="containers.html">Containers</a>
+        <a href="custom.html">Custom Solutions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a class="btn btn-primary" href="contact.html">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
 
   <section class="section section-alt reveal">
     <div class="container">
       <div class="section-head">
         <h2>Request a Quote</h2>
-        <p>Send your requirements and we’ll respond with options and availability. <strong>Gauteng delivery only.</strong></p>
+        <p>
+          Send your requirements and we’ll respond with options and availability.
+          <strong>Gauteng delivery only.</strong>
+        </p>
       </div>
 
       <div class="grid-2">
         <form class="form card" id="quoteForm">
-          <label>Full Name <input type="text" name="name" required /></label>
-          <label>Email <input type="email" name="email" required /></label>
-          <label>Phone Number <input type="tel" name="phone" required /></label>
-          <label>Location (Gauteng) <input type="text" name="location" placeholder="e.g., Midrand / Johannesburg / Pretoria" required /></label>
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Phone Number
+            <input type="tel" name="phone" required />
+          </label>
+
+          <label>
+            Location (Gauteng)
+            <input
+              type="text"
+              name="location"
+              placeholder="e.g., Midrand / Johannesburg / Pretoria"
+              required
+            />
+          </label>
 
           <label>
             Container Type
@@ -54,16 +91,28 @@
 
           <label>
             Message
-            <textarea name="message" rows="5" placeholder="Tell us what you need (size, new/used, intended use, delivery area)..." required></textarea>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Tell us what you need (size, new/used, intended use, delivery area)..."
+              required
+            ></textarea>
           </label>
 
-          <button class="btn btn-primary btn-block" type="submit">Send Enquiry</button>
-          <p class="form-hint">This opens your email app (free). When you have a business email, we’ll update the recipient.</p>
+          <button class="btn btn-primary btn-block" type="submit">
+            Send Enquiry
+          </button>
+
+          <p class="form-hint">
+            This opens your email app (free). When you have a business email,
+            we’ll update the recipient.
+          </p>
         </form>
 
         <div class="card">
           <h3>Synergy Container Solutions</h3>
           <p><strong>Service Area:</strong> Gauteng, South Africa</p>
+
           <div class="divider"></div>
 
           <h4>Business Hours</h4>
@@ -74,7 +123,10 @@
           </ul>
 
           <div class="divider"></div>
-          <p class="muted">Contact details (phone/email) can be added once confirmed.</p>
+
+          <p class="muted">
+            Contact details (phone/email) can be added once confirmed.
+          </p>
         </div>
       </div>
     </div>
@@ -82,10 +134,21 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <div><strong>Synergy Container Solutions</strong><p class="muted">Prices on request. Gauteng delivery only.</p></div>
-      <div class="footer-links"><a href="containers.html">Containers</a><a href="custom.html">Custom</a><a href="gallery.html">Gallery</a></div>
+      <div>
+        <strong>Synergy Container Solutions</strong>
+        <p class="muted">Prices on request. Gauteng delivery only.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="containers.html">Containers</a>
+        <a href="custom.html">Custom</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
     </div>
-    <div class="container footer-bottom"><p>© <span id="year"></span> Synergy Container Solutions. All rights reserved.</p></div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Synergy Container Solutions. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
