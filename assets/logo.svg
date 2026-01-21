@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="800mm" height="800mm" version="1.1" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 800 800" width="180" height="180" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
  <ellipse cx="400" cy="400" rx="291.61" ry="293.4" fill="#d38d5f" stroke="#000" stroke-linecap="round" stroke-width="10"/>
  <path id="path6" d="m398.62 115.49a283.13 284.1 0 0 0-283.13 284.1 283.13 284.1 0 0 0 283.13 284.1 283.13 284.1 0 0 0 283.13-284.1 283.13 284.1 0 0 0-283.13-284.1z" fill="none" stroke-width=".21934"/>
  <path id="path1" d="m400 655.53a255.53 255.53 0 0 1-255.53-255.53 255.53 255.53 0 0 1 255.53-255.53 255.53 255.53 0 0 1 255.53 255.53 255.53 255.53 0 0 1-255.53 255.53z" fill="none" stroke-width=".26209"/>
