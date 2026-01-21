@@ -50,9 +50,9 @@ body{
   padding:14px 0;
 }
 .brand img{
-  height:42px;
+  height:64px;
   width:auto;
-  max-width:180px;
+  max-width:220px;
   display:block;
 }
 .nav{
