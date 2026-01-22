@@ -138,16 +138,19 @@ body{
 
 /* ===== HERO (fuller + clean container image) ===== */
 .hero{
-  padding:74px 0 62px;
-  position:relative;
-  overflow:hidden;
-
-  /* Clean background + your image */
+  position: relative;
+  padding: 90px 0 70px;
   background:
-    linear-gradient(90deg, rgba(255,255,255,.96) 0%, rgba(255,255,255,.92) 45%, rgba(255,255,255,.82) 100%),
-    url("assets/hero.jpg");
-  background-size: cover;
-  background-position: center right;
+    linear-gradient(
+      rgba(255,255,255,.92),
+      rgba(255,255,255,.88)
+    ),
+    url("assets/ColorfulContainerStackBig.jpg") center / cover no-repeat;
+}
+.hero-inner{
+  min-height: 460px;
+  display: grid;
+  align-items: center;
 }
 
 /* Subtle decorative glow (still clean) */
