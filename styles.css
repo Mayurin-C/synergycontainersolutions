@@ -141,12 +141,26 @@ body{
   position: relative;
   padding: 90px 0 70px;
   background:
+    /* subtle dark tint for contrast */
     linear-gradient(
-      rgba(255,255,255,.92),
-      rgba(255,255,255,.88)
+      rgba(15,23,42,.25),
+      rgba(15,23,42,.15)
+    ),
+    /* soft white veil so text stays readable */
+    linear-gradient(
+      rgba(255,255,255,.80),
+      rgba(255,255,255,.78)
     ),
     url("assets/ColorfulContainerStackBig.jpg") center / cover no-repeat;
 }
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  box-shadow: inset 0 -120px 140px rgba(255,255,255,.85);
+  pointer-events:none;
+}
+
 .hero-inner{
   min-height: 460px;
   display: grid;
