@@ -1,3 +1,4 @@
+body{ outline: 8px solid hotpink !important; }
 :root{
   --white:#ffffff;
   --soft:#fff7ed;
