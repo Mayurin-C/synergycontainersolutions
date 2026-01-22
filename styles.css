@@ -357,9 +357,11 @@ body{
   .hero h1{ font-size:40px; }
   .center{ margin-top:22px; }
 }
+
 @media (max-width: 640px){
   .grid-4, .grid-3, .grid-2{ grid-template-columns: 1fr; }
   .nav-toggle{ display:inline-flex; }
+
   .nav{
     display:none;
     position:absolute;
@@ -374,5 +376,18 @@ body{
     box-shadow: var(--shadow);
   }
   .nav.open{ display:flex; }
+
   .footer-inner{ flex-direction:column; }
+
+  /* ✅ MOBILE POLISH (Step 3) */
+  .brand{
+    gap:12px;
+  }
+  .brand img{
+    height:56px;         /* slightly bigger logo on mobile */
+    max-width:260px;
+  }
+  .brand-text small{
+    display:none;         /* hides the small subtitle line on mobile */
+  }
 }
